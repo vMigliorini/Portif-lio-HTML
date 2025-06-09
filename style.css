@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(104, 129, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 60px;
+    margin:2%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.containerInfo{
+    max-width: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 60px;
+    margin:2%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.input{
+    width: 80%;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.manchete{
+    font-family: Marker Felt, fantasy;
+    font-size: 40px;
+}
+.titulo{
+    font-family: Marker Felt, fantasy;
+    font-size: 40px;
+}
+.descricao{
+    font-family: Times, Times New Roman, serif;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+.topico{
+    font-family: Marker Felt, fantasy;
+    font-size: 18px;
+}
+.image img{
+    margin: 0 auto;
+    max-height: 1000px;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    image-rendering: crisp-edges;
+}
